@@ -1,9 +1,22 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 20 de abr. de 2023, 22:55:34
-    Author     : Luan
-*/
+#retangulo {
+    position: fixed;
+    height: 37%;
+    width: 20%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(48, 47, 47);
+    text-align: center;   
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#logo {
+    text-align: center;
+}
 
