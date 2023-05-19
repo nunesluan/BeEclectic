@@ -1,3 +1,10 @@
+<%-- 
+    Document   : logged
+    Created on : 18 de mai. de 2023, 21:15:45
+    Author     : Luan
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -16,7 +23,7 @@
             <a href="./signin.jsp" class="buttons-header">Sign In</a>
             <a href="./signup.html" class="buttons-header">Sign Up</a>
             <div class="logo">
-                <a href="./index.html"><img src="img/beeclectic.png"></a>
+                <a href="./logged.jsp"><img src="img/beeclectic.png"></a>
             </div>
         </header>
         <nav style="background-color: #0095A8">
@@ -24,6 +31,10 @@
             <a href="./shows.html" class="buttons-nav">SHOWS</a>
             <a href="./playlists.html" class="buttons-nav">PLAYLISTS</a>
             <a href="./top10.html" class="buttons-nav">TOP 10</a>
+            <a href="./favartists.jsp" class="buttons-nav">FAVORITE ARTISTS</a>
+            <a href="./favalbums.jsp" class="buttons-nav">FAVORITE ALBUMS</a>
+            <a href="./favsongs.jsp" class="buttons-nav">FAVORITE SONGS</a>
+            <a href="./myplaylists.jsp" class="buttons-nav">MY PLAYLISTS</a>
             <div class="icons">
                 <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook icons-distance"></i></a>
                 <a href="https://twitter.com/"target="_blank"><i class="fa-brands fa-twitter icons-distance"></i></a>
